@@ -11,7 +11,7 @@ public class MyArrayList {
 
     public void add(Object value) {
         if (size == elements.length) {
-            // Resize the array if it's full
+            
             Object[] newElements = new Object[elements.length * 2];
             System.arraycopy(elements, 0, newElements, 0, size);
             elements = newElements;
